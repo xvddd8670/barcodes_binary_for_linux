@@ -1,0 +1,35 @@
+{
+	"main_config": {
+		"programm_mode": 2,
+		"test_mode": true,
+		"screen_width": 1366,
+		"screen_height": 768
+	},	
+	"for_sql": {
+		"++++++++++++++++++++++++++++++++++++++++++++++++": "//mysql//",
+		"host_to_mysql": "mx1.droma.me",
+		"user_to_mysql": "c3zlicenia",
+		"password_to_mysql": "222-Droma-222",
+		"database_name_to_mysql": "c3dane_skanowania",
+		"table_scan_all_for_test_mode": "scan_all_test",
+		"table_scan_all": "scan_all",
+		"table_workplace_data_for_test_mode": "workplace_data_test",
+		"table_workplace_data": "workplace_data",
+		"++++++++++++++++++++++++++++++++++++++++++++++++": "//sqlite//",
+		"local_db_file": "local_database_for_stack_documents.db",
+		"++++++++++++++++++++++++++++++++++++++++++++++++": "//mssql roger_zabrze//",
+		"mssql_roger_host": "192.168.71.253\\ROGER_ZABRZE",
+		"mssql_roger_user": "roger-ro",
+		"mssql_roger_password": "QE4tWEG#$5",
+		"mssql_roger_database": "Viso",
+		"mssql_roger_workers_table": "AccessUserPersons",
+		"++++++++++++++++++++++++++++++++++++++++++++++++": "//sqlite to list workers//",
+		"db_list_workers": "list_workers.db"
+	},
+	"programm_mode_2": {
+		"litheral_list": ["+", "A", "B", "C", "D", "E", "F", 
+						"G", "H", "I", "J", "K", "L", "M",
+						"N", "O", "P", "Q", "R", "S", "T",
+						"U", "V", "W", "X", "Y", "Z"]
+	}
+}
